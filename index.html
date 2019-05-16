@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML Links</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Links</title>
 </head>
+
 <body>
 
-  <!-- Challenge 1: Wrap the text below with a link that has an absolute path -->
-  Absolute Path (external link)
+    <!-- Challenge 1: Wrap the text below with a link that has an absolute path -->
+    <a href="https://www.google.com"> Absolute Path (external link) </a>
+    <!--The href attribute in this example, is an full link, also known as an absolute path.-->
 
-  <!-- Challenge 2: Wrap the text below with a link that has a relative path to about.html-->
-  Relative Path (internal link)
+    <!-- Challenge 2: Wrap the text below with a link that has a relative path to about.html-->
+    <a href="./index.html"> Relative Path (internal link) </a>
+    <!--Alternatively, we can also use a relative path, 
+      which is used when we want to link to a separate file on the same website:-->
 
-  <!-- Challenge 3: Wrap the img tag below with a link that uses the target attribute -->
-  <img src="https://s3.amazonaws.com/ironboard-learn/lion.jpg" alt="a lion">
+    <!-- Challenge 3: Wrap the img tag below with a link that uses the target attribute -->
+    <a href="https://learn.co/" target="_blank"><img src="https://s3.amazonaws.com/ironboard-learn/lion.jpg" alt="a lion"></a>
+    <!-- The target attribute can be added along side href and has a specific use: 
+      setting this attribute to be target='_blank' will cause the browser to open a new tab when the link is clicked, 
+      instead of changing the current page you are on:-->
 
 </body>
+
 </html>
